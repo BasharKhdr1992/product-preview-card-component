@@ -1,0 +1,29 @@
+.btn {
+  border: none;
+  background: none;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.btn img {
+  margin-right: 1rem;
+}
+
+.btn-primary {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+}
+
+.btn-primary:hover {
+  background-color: hsl(212, 21%, 14%);
+}
